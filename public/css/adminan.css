@@ -1,0 +1,128 @@
+.navbar {
+    padding: 0 0;
+    /* background-color: #445a7a; */
+    background-color: #4a6572;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%),
+        inset 0 -1px 0 rgb(255 255 255 / 15%);
+        /* text-decoration: none; */
+      
+        
+}
+
+ /* .card {
+    background-color: #d8dde3
+ } */
+
+body{
+
+    color: black;
+}
+
+
+.navbar .navbar-nav .nav-link {
+    text-decoration: none;
+    /* color: aliceblue; */
+    color: aliceblue;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:active,
+.navbar .navbar-nav .nav-link:focus,
+.link:hover,.link:focus,.link:active {
+    color: #33d1cc;
+}
+
+
+.navbar-brand {
+   /* color: white; */
+   color: aliceblue;
+}
+.navbar-brand:hover {
+
+    color: rgb(67, 70, 85);
+}
+.link{
+     text-decoration: none;
+     color: aliceblue;
+
+}
+.link1{
+     text-decoration: none;
+    color: #030303;
+
+}
+
+.link1:hover{
+    color:black ;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.link:hover{
+    color: #33d1cc;
+    text-decoration: none;
+}
+.navbar .navbar-toggler  {
+
+    color: aliceblue;
+    font-size: 25px;
+   
+   
+}
+.navbar .navbar-toggler:focus {
+box-shadow: none;
+color: aliceblue;
+
+}
+.btn1{
+    background-color: #4a6572;
+}/* body */
+
+
+.bi{ 
+    /* background: transparent; */
+    
+    cursor: pointer;
+     
+ }  
+
+:focus {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0100px;
+     outline: none;
+     box-shadow: none;
+     border-top-right-radius: 50%;
+}
+.form-control:focus {
+     border: 0;
+    outline: none;
+    box-shadow: none;
+
+}
+.warrninig{
+    cursor: pointer;
+    text-decoration:none;
+    color: rgb(168, 36, 36);
+ }
+ .warrninig:hover{
+    text-decoration:underline ;
+    color: rgb(168, 36, 36);
+ }
+ .name:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transition: all .9s ease-in-out;
+ }
+ .btn1 a{
+    color: #ffffff;
+text-decoration: none;
+}
+.btn1{
+    background-color:#204354;
+}
+.btn1 a:hover{
+    color: #33d1cc;
+text-decoration: none;
+}
+.shad{
+    box-shadow: 0 0rem 2rem rgba(0,0,0,.175)!important;
+}

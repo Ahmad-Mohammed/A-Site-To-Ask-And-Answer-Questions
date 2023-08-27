@@ -1,0 +1,157 @@
+.navbar {
+   padding: 0 0;
+   /* background-color: #445a7a; */
+   background-color: #4a6572;
+   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%),
+       inset 0 -1px 0 rgb(255 255 255 / 15%);
+       /* text-decoration: none; */
+     
+       
+}
+.navbar .navbar-nav .nav-link {
+   text-decoration: none;
+   /* color: aliceblue; */
+   color: #ffffff;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:active,
+.navbar .navbar-nav .nav-link:focus,
+.link:hover,.link:focus,.link:active {
+   color: #33d1cc;
+}
+
+.link {
+     text-decoration:none;
+    color: aliceblue;
+}
+.link:hover{
+
+color: aqua;
+
+}
+.link1 {
+     text-decoration:none;
+    color: black;
+}
+.link1:hover{
+cursor: pointer;
+text-decoration: underline;
+color: black;
+}
+
+.navbar-brand{
+
+    color: white;
+}
+.navbar-brand:hover{
+
+    color: aqua;
+}
+.navbar .navbar-toggler  {
+
+   color: #ffffff;
+   font-size: 25px;
+  
+  
+}
+.navbar .navbar-toggler:focus {
+box-shadow: none;
+
+}
+.img1{
+   max-width: 95%;
+   height: 205px;
+   margin-top: 20px;
+   box-shadow: 7px 8px 9px 2px rgb(179 167 167 / 75%);
+}
+.bi{ 
+    /* background: transparent; */
+    
+    cursor: pointer;
+     
+ }  
+ :focus{
+    outline: none;
+    
+ }
+ .container ,.row ,.nam ,.answer {
+    border-radius: 20px;
+ } 
+
+ .answer1:focus::-webkit-input-placeholder{
+    opacity: 0;
+    -webkit-transition: opacity .6s ease-in-out;
+    -moz-transition: opacity .6s ease-in-out;
+    -o-transition: opacity .6s ease-in-out;
+    transition: opacity .6s ease-in-out;
+ }
+ .answer1:focus::-moz-placeholder{
+    opacity: 0;
+    -webkit-transition: opacity .6s ease-in-out;
+    -moz-transition: opacity .6s ease-in-out;
+    -o-transition: opacity .6s ease-in-out;
+    transition: opacity .6s ease-in-out;
+ 
+ }
+ .answer1:focus::-ms-input-placeholder{
+    opacity: 0;
+    -webkit-transition: opacity .6s ease-in-out;
+    -moz-transition: opacity .6s ease-in-out;
+    -o-transition: opacity .6s ease-in-out;
+    transition: opacity .6s ease-in-out;
+ 
+ }
+ .answer1:focus:-webkit-input-placeholder{
+    opacity: 0;
+    
+    -webkit-transition: opacity .6s ease-in-out;
+    -moz-transition: opacity .6s ease-in-out;
+    -o-transition: opacity .6s ease-in-out;
+    transition: opacity .6s ease-in-out;
+ }
+ .warrninig{
+    text-decoration:none;
+    color: rgb(168, 36, 36);
+ }
+ .warrninig:hover{
+    text-decoration:underline ;
+    color: rgb(168, 36, 36);
+ }
+ .name:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transition: all .9s ease-in-out;
+ }
+ button.btn.co1.btn-outline-success.ms-2:hover {
+   color:#198754;
+   background-color: transparent;
+
+  border-color: #198754;
+}
+button.btn.btn-outline-danger:hover{
+   color: red;
+   background-color: transparent;
+
+  border-color: red;
+
+}
+button.btn.co1.btn-outline-success.ms-2:focus,
+button.btn.btn-outline-danger:focus{
+
+    outline: none;
+    box-shadow: none;
+}
+button{
+   color: red;
+   font-size: 15px;
+   border: none;
+   background-color: transparent;
+}
+button:hover,
+button:focus {
+   color: red;
+   font-size: 15px;
+   border: none;
+   background-color: transparent;
+   text-decoration: underline;
+}

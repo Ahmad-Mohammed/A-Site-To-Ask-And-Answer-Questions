@@ -1,0 +1,96 @@
+/* body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background: #ffffff;
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+} */
+.navbar {
+    padding: 0.75rem 0;
+    background-color: #4a6572;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%),
+        inset 0 -1px 0 rgb(255 255 255 / 15%);
+        
+}
+
+.link {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.link:hover {
+
+    color: aqua;
+
+}
+
+.navbar-brand {
+
+    color: white;
+}
+
+.navbar-brand:hover {
+
+    color: aqua;
+}
+
+/* .container {
+    
+    border-radius: 5px;
+    margin-top: 48px;
+    background-color: rgb(182, 196, 196);
+    box-shadow: 17px 12px 15px 0px rgb(201 200 209)
+} */
+
+
+/* .container .login .needs-validation .btn {
+
+    background: linear-gradient(360deg, #aab7be, #f1faee);
+    border: 1px solid #4a6572;
+    margin: 29px 0px 0px 72px;
+} */
+
+.form-control:focus {
+    border: 2px solid #4a6572;
+    outline: none;
+    box-shadow: none;
+
+}
+
+.form-control:focus::-webkit-input-placeholder {
+    opacity: 0;
+    -webkit-transition: opacity .6s ease-in-out;
+    -moz-transition: opacity .6s ease-in-out;
+    -o-transition: opacity .6s ease-in-out;
+    transition: opacity .6s ease-in-out;
+}
+
+.form-control:focus::-moz-placeholder {
+    opacity: 0;
+    -webkit-transition: opacity .6s ease-in-out;
+    -moz-transition: opacity .6s ease-in-out;
+    -o-transition: opacity .6s ease-in-out;
+    transition: opacity .6s ease-in-out;
+
+}
+
+.form-control:focus::-ms-input-placeholder {
+    opacity: 0;
+    -webkit-transition: opacity .6s ease-in-out;
+    -moz-transition: opacity .6s ease-in-out;
+    -o-transition: opacity .6s ease-in-out;
+    transition: opacity .6s ease-in-out;
+
+}
+
+.form-control:focus:-webkit-input-placeholder {
+    opacity: 0;
+
+    -webkit-transition: opacity .6s ease-in-out;
+    -moz-transition: opacity .6s ease-in-out;
+    -o-transition: opacity .6s ease-in-out;
+    transition: opacity .6s ease-in-out;
+}
